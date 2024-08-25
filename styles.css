@@ -1,1 +1,33 @@
-/*  your css code here. If applicable */
+body, html {
+    height: 100%;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    font-family: Arial, sans-serif; /* Optional: better font for readability */
+}
+
+.main-container {
+    text-align: center; /* Center the text within the container */
+}
+
+.code-container {
+    display: flex;
+    gap: 8px;
+    justify-content: center; /* Center the .code elements horizontally */
+    align-items: center; /* Ensure .code elements are vertically centered */
+}
+
+.code {
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    line-height: 40px; 
+    font-size: 18px;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+}
+
+.code:focus {
+    border-color:black;
+    outline: none;
+}
