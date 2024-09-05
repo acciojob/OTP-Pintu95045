@@ -1,5 +1,4 @@
 body, html {
-    height: 100%;
     margin: 0;
     display: flex;
     justify-content: center;
@@ -7,7 +6,14 @@ body, html {
 }
 
 .main-container {
-    text-align: center; /* Center the text within the container */
+	text-align: center; /* Center the text within the container */
+    border: 2px solid #000; /* Adds a solid border around the container */
+    padding: 20px; /* Adds space inside the container between the content and the border */
+    margin: 20px auto; /* Centers the container on the page */
+    max-width: 600px; /* Limits the width of the container */
+    border-radius: 10px; /* Rounds the corners of the border */
+    background-color: #f9f9f9; /* Adds a background color inside the container */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Adds a subt
 }
 
 .code-container {
@@ -18,8 +24,8 @@ body, html {
 }
 
 .code {
-    width: 40px;
-    height: 40px;
+    width: 60px;
+    height: 80px;
     text-align: center;
     line-height: 40px; 
     font-size: 18px;
@@ -28,6 +34,6 @@ body, html {
 }
 
 .code:focus {
-    border-color:black;
+    border-color: solid black;
     outline: none;
 }
