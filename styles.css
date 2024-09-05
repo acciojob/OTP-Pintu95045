@@ -1,39 +1,51 @@
-body, html {
-    margin: 0;
+/*  your css code here. If applicable */
+body {
+    font-family: Arial, sans-serif;
     display: flex;
     justify-content: center;
-    font-family: Arial, sans-serif; /* Optional: better font for readability */
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f3f3f3;
 }
 
-.main-container {
-	text-align: center; /* Center the text within the container */
-    border: 2px solid #000; /* Adds a solid border around the container */
-    padding: 20px; /* Adds space inside the container between the content and the border */
-    margin: 20px auto; /* Centers the container on the page */
-    max-width: 600px; /* Limits the width of the container */
-    border-radius: 10px; /* Rounds the corners of the border */
-    background-color: #f9f9f9; /* Adds a background color inside the container */
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Adds a subt
+.container {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 400px;
+}
+
+#verification_heading {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+#verification_subtext {
+    font-size: 14px;
+    color: #555;
+    margin-bottom: 20px;
 }
 
 .code-container {
     display: flex;
-    gap: 8px;
-    justify-content: center; /* Center the .code elements horizontally */
-    align-items: center; /* Ensure .code elements are vertically centered */
+    justify-content: space-between;
+    margin-bottom: 20px;
 }
 
 .code {
-    width: 60px;
-    height: 80px;
+    width: 40px;
+    height: 40px;
+    font-size: 24px;
     text-align: center;
-    line-height: 40px; 
-    font-size: 18px;
-    border: 2px solid #ccc;
-    border-radius: 4px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
 }
 
-.code:focus {
-    border-color: solid black;
-    outline: none;
+.design-note {
+    font-size: 12px;
+    color: #888;
+    margin-top: 10px;
 }
